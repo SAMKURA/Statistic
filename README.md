@@ -3,6 +3,10 @@
 ## Introduction
 This report examines regional and income group differences in the drivers of household food consumption emissions. The main objective is to determine whether agricultural production factors (Fertilizers Manufacturing, Manure Management, Rice Cultivation, Crop Residues) or post-production supply chain activities (Processing, Transport, Retail, Packaging) have a stronger impact on emissions associated with household food consumption.
 Comparing these two groups of emissions from different regions and income groups, the analysis seeks to trace structural patterns in food-related emissions. The results help to clarify the cabinet of emission drivers different between developing and developed economies and offer a look at targeted and effective climate policy interventions in the food sector.
+## Methodology
+In order to identify the main drivers of household food consumption emissions, we first classified the variables related to the environment in two groups; one comprising of variables related to agricultural production (Fertilizers Manufacturing, Manure Management, Rice Cultivation, Crop Residues) and the other of variables related to the post-production supply chain activities (Processing, Transport, Retail, Packaging). These variables exhibited highly skewed distributions on the left side, hence, we used a log transformation to bring the data back to normal. Subsequently, all variables were normalized to facilitate the comparison of variables measured in different units.We further used a Random Forest (RF) model to determine the relative significance of each variable in predicting household food consumption emissions. The average permutation importance obtained from the RF model was used as a measure of the relative influence of production against supply chain activities in different regions and for different household income groups.
+
+
 ## Historical Comparison of Emission Drivers (1990–2005 vs. 2006–2020)
 To investigate how the factors behind the household food consumption emissions have changed over time, the study is split into two sample periods: 1990-2005 and 2006-2020. The division helps to compare the first phase of globalization and agricultural intensification with the second period of global supply chains expansion, technological progress, and increasing climate awareness.
 ![week 10.3.png](https://github.com/Avonik/ASDA_2025_newGroup_4_Portfolio/blob/main/additional_material/images/week10.3.png)
@@ -17,5 +21,12 @@ Comparing income groups allows us to capture differences in household food consu
 ![week 10.3.png](https://github.com/Avonik/ASDA_2025_newGroup_4_Portfolio/blob/main/additional_material/images/week10.3.png)
 The graph shows that supply chain activities consistently contribute more to household food consumption emissions than production activities across all income groups. The most dramatic difference between these groups are in **Upper middle income countries**, where average permutation importance of supply chaing group is **36.8%** and for production group is just **1.3%**. This can be explained by diet composition and food sourcing patterns in these countries: households tend to consume more processed, packaged, and imported foods, which involve energy-intensive transportation, processing, and retail stages. 
 Also The lower middle income group is quite interesting because both, emission from production and supply chain are highest. **The lower middle income** group reflects a greater share of contributions from production activities since their households depend largely on staple and local foods, so that farming is consequently the main source of their emissions. On the other hand, wealthier groups eat a greater proportion of processed and imported foods for which supply chain activities account for the largest part of the emissions footprint.
+
+## Conclusion
+The global emissions of food consumed in households are mainly the result of **post-production supply chain activities**. According to the analysis, these activities account for as much as **88% of the global impact**, while production factors contribute a mere **12%.** The supply chain emissions are the major factor contributing to almost all regions and income groups, with the exception of North America and lower middle-income households, where production has a larger share. These findings highlight that **targeted mitigation in processing, transport, retail, and packaging** is key to reducing food-related emissions, with regional and income-specific strategies needed to address production-related impacts.
+
+
+
+
 
 
