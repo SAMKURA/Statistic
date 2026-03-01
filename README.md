@@ -25,8 +25,15 @@ Also The lower middle income group is quite interesting because both, emission f
 ## Conclusion
 The global emissions of food consumed in households are mainly the result of **post-production supply chain activities**. According to the analysis, these activities account for as much as **88% of the global impact**, while production factors contribute a mere **12%.** The supply chain emissions are the major factor contributing to almost all regions and income groups, with the exception of North America and lower middle-income households, where production has a larger share. These findings highlight that **targeted mitigation in processing, transport, retail, and packaging** is key to reducing food-related emissions, with regional and income-specific strategies needed to address production-related impacts.
 
+## AI Disclaimer
 
+* Methodological Guidance: Assisting in structuring the statistical workflow and selecting appropriate tests.
 
+* Code Support: Providing Python code snippets for data transformations, analysis, and diagnostic plotting (Seaborn/Statsmodels).
+
+* Drafting & Formatting: Supporting the creation of the narrative structure and formatting the final report in Markdown.
+
+All interpretations, conclusions, and final content decisions were made independently by the author.
 
 
 
